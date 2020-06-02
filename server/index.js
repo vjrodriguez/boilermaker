@@ -1,16 +1,16 @@
 const path = require('path')
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 const volleyball = require('volleyball')
 
-app.use(volleyball('dev'));
+app.use(volleyball)
 
 //express.static lets us serve static file(non-dynamic files); path creates an absolute route from root directory to the start of the relative path we provide
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../public')))
 
 //this is body parser syntac for express version 4.17 and up
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 //send us to server/api
 app.use('/api', require('./api'))
@@ -23,10 +23,10 @@ app.get('*', (req, res) => {
 //the 404 api route will be sent to next, which will eventually hit the below route
 app.use(function (err, req, res, next) {
   // eslint-disable-next-line no-console
-  console.error(err);
+  console.error(err)
   // eslint-disable-next-line no-console
-  console.error(err.stack);
-  res.status(err.status || 500).send(err.message || 'Internal server error.');
-});
+  console.error(err.stack)
+  res.status(err.status || 500).send(err.message || 'Internal server error.')
+})
 
 module.exports = app
