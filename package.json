@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "boilerplate",
+=======
+  "name": "boilermaker",
+>>>>>>> 54cd43e1f9af62b82c6d437fff5883f6b6396f53
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skyboxx/boilerplate.git"
@@ -16,4 +21,14 @@
     "url": "https://github.com/skyboxx/boilerplate/issues"
   },
   "homepage": "https://github.com/skyboxx/boilerplate#readme"
+=======
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "volleyball": "^1.5.1"
+  }
+>>>>>>> 54cd43e1f9af62b82c6d437fff5883f6b6396f53
 }
