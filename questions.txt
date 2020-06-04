@@ -1,0 +1,1 @@
+1) why does only npm run start-dev work and not without run?

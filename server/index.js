@@ -8,7 +8,7 @@ app.use(volleyball)
 //express.static lets us serve static file(non-dynamic files); path creates an absolute route from root directory to the start of the relative path we provide
 app.use(express.static(path.join(__dirname, '../public')))
 
-//this is body parser syntac for express version 4.17 and up
+//this is body parser syntax for express version 4.17 and up
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 

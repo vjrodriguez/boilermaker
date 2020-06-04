@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "boilerplate",
-=======
-  "name": "boilermaker",
->>>>>>> 54cd43e1f9af62b82c6d437fff5883f6b6396f53
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,18 +8,6 @@
     "start-dev": "webpack -w & nodemon server/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skyboxx/boilerplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/skyboxx/boilerplate/issues"
-  },
-  "homepage": "https://github.com/skyboxx/boilerplate#readme"
-=======
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -31,17 +15,21 @@
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
     "nodemon": "^2.0.4",
-    "volleyball": "^1.5.1"
+    "redux-devtools-extension": "^2.13.8",
+    "volleyball": "^1.5.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
->>>>>>> 54cd43e1f9af62b82c6d437fff5883f6b6396f53
 }
