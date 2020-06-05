@@ -1,1 +1,14 @@
+
+
+6/4/20
 1) why does only npm run start-dev work and not without run?
+    - there are a few commands that you can always run without 'run' including start, test, etc.
+      all other commands require 'run'
+
+6/5/20
+* remember to create database on your local machine called "boilermaker"
+1) how do you show magic methods? 
+    - for models, e.g.: console.log(Object.keys(Cat.prototype))
+    - for instance, e.g.: console.log(cat1.__proto__)
+2) how do you see the console logs for one specific file?
+    - in the terminal, cd into the folder containing the file, then type "node" followed by the file name

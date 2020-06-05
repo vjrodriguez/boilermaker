@@ -2,9 +2,11 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 const Main = (props) => {
-const { dogs } = props
-  return(
-    <div>VICTORY!!!!<br/>
+  const { dogs } = props
+  return (
+    <div>
+      VICTORY!!!!
+      <br />
       {dogs}
     </div>
   )
@@ -12,7 +14,7 @@ const { dogs } = props
 
 const mapStateToProps = (state) => {
   return {
-    dogs: state.reducerA.dogs
+    dogs: state.reducerA.dogs,
   }
 }
 
