@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 //action type:
-const GET_SOMETHING = 'GET_SOMETHING'
+const GET_ME = 'GET_ME'
 
 //action creator:
-const getSomething = (something) => ({
+const getMe = (something) => ({
   type: GET_SOMETHING,
   something
 })

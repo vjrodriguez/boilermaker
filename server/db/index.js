@@ -2,7 +2,7 @@
 const db = require('./database')
 //import all models
 const Dog = require('./models/dog')
-const Owner = require('./models/owner')
+const Owner = require('./models/user')
 
 //make associations between models
 Owner.hasMany(Dog)

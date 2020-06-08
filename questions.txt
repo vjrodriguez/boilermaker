@@ -7,8 +7,14 @@
 
 6/5/20
 * remember to create database on your local machine called "boilermaker"
-1) how do you show magic methods? 
+1) how do you show magic methods?
     - for models, e.g.: console.log(Object.keys(Cat.prototype))
     - for instance, e.g.: console.log(cat1.__proto__)
 2) how do you see the console logs for one specific file?
     - in the terminal, cd into the folder containing the file, then type "node" followed by the file name
+
+6/8/20
+1) See here about saveUninitialized amd resave setting in session middleware: https://stackoverflow.com/questions/40381401/when-to-use-saveuninitialized-and-resave-in-express-session
+
+2) session secret env variable: when we deploy, we will add session secret after connecting to Heroku (accessing remote server via command line)
+

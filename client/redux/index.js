@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import reducerA from './testReducer'
+import userReducer from './userReducer'
 //import other reducers from redux folder
 
 const appReducer = combineReducers({
   //this is where we connect our reducers from the redux folder
-  reducerA : reducerA
+  user: userReducer
   //reducerB : reducerB
 })
 
